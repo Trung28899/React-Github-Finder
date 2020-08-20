@@ -1,3 +1,6 @@
+API used for this app:
+https://api.github.com/users
+
 - All the styling classes of the app is in App.css
 
 - Handling Http requests: using axios
