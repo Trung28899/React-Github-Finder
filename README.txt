@@ -1,5 +1,7 @@
 API used for this app:
 https://api.github.com/users
+documentations:
+https://developer.github.com/v4/
 
 - All the styling classes of the app is in App.css
 
@@ -17,3 +19,7 @@ After create it, take:
 put to .env.local file
 global variables are used in App.js in componentDidMount()
 in the fetching url
+
+- Passing Props Up:
+components/users/Search.js
+passing props to App.js
