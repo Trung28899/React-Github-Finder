@@ -1,5 +1,10 @@
 API used for this app:
 https://api.github.com/users
+
+example API: 
+https://api.github.com/users/Trung28899
+https://api.github.com/users/Trung28899/repos/
+
 documentations:
 https://developer.github.com/v4/
 
@@ -23,3 +28,6 @@ in the fetching url
 - Passing Props Up:
 components/users/Search.js
 passing props to App.js
+
+- React Router: 
+$ npm install react-router-dom
