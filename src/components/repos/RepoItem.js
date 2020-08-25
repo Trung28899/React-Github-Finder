@@ -1,11 +1,11 @@
 import React from "react";
 import propTypes from "prop-types";
 
-const RepoItem = ({ repo }) => {
+const RepoItem = ({ repo, trackingNumber }) => {
   return (
     <div className="card">
       <h3>
-        <a href={repo.html_url}>{repo.name}</a>
+        {trackingNumber}. &nbsp; <a href={repo.html_url}>{repo.name}</a>
       </h3>
     </div>
   );
